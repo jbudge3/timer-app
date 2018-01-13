@@ -21,7 +21,7 @@ export default class TimerApp extends Component {
 
 	updateTimer() {
 		const now = new Date();
-		const futureDate = new Date('January 18, 2018 15:00:00');
+		const futureDate = new Date('January 13, 2018 20:00:00');
 		const diff = futureDate - now;
 
 		const days = diff / 1000 / 60 / 60 / 24;
